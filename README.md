@@ -7,8 +7,15 @@ In this lab homework we create three EC2 instances, making note of:
 * include a screenshot of the connection
 * indicate if the instance was terminated
 
+I have uploaded the screenshots to the screenshots folder in the GitHub repository.
+
 | Deployment | IP address | Screenshot filename | Instance terminated |
 | --- | --- | --- | --- |
-| 1 | 52.15.206.159 | lab0_basics_class8_week1_first_example.png | no |
+| 1 | 18.117.167.47 | lab0_basics_class8_week1_first_example.png | yes |
+| 2 | --- | --- | --- |
+| 3 | --- | --- | --- |
 
-I have uploaded the screenshots to the Screenshots folder in this GitHub repository.
+Additional information:
+
+During the first deployment, I confirmed the template was available to use and pasted the script into the templates's User data field. I then connected to the instance using SSH. From there I ran the command "seir-dashboard". I had to redo this instance because I did not capture the correct output.
+
